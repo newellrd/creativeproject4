@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arvo';
+    font-size: 16px;
+    padding: 20px 100px 0px 100px;
+    background: #C2A97E;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #691D1D;
+}
+
+p{
+  color: #691D1D;
+}
+
+hr
+{
+    background-color: #752120;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #752120;
+    padding: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* List */
+
+ul {
+    list-style: none;
+}
+
+li {
+    background: #F5D69F;
+    width: 500px;
+    min-height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.delete {
+    display: none;
+    margin-left: auto;
+}
+
+li:hover .delete {
+    display: block;
+}
+
+label {
+    width: 400px;
+    color: #691D1D;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+/* Form */
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+input[type=text] {
+    font-size: 1em;
+}
+
+button {
+    font-family: 'Arvo';
+    font-size: 1em;
+    background: #F5E3B3;
+    color: #691D1D;
+}
+
+/* Controls */
+
+.controls {
+    margin-top: 20px;
+}
